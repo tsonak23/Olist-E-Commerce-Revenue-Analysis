@@ -23,5 +23,11 @@ FileDescription:
 4. olist_customers_dataset.csv : Customer location — state and city
 5. olist_product_category_name_translation.csv : Portuguese to English category name mapping
 
+Data Model:
+
+<img width="761" height="441" alt="Data_Model" src="https://github.com/user-attachments/assets/8a9c67e0-7dc8-4a53-98aa-2c014eee4d22" />
+
+
+
 
 
