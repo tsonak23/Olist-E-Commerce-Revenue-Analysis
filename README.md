@@ -48,7 +48,7 @@ Analytical Decisions:
 
 Dashboard:
 
-<img width="1307" height="728" alt="Olist_Dashboard" src="https://github.com/user-attachments/assets/4f6fdffc-4238-497c-980b-0a96e702add3" />
+<img width="1307" height="728" alt="Olist_Dashboard" src="https://github.com/user-attachments/assets/4f6fdffc-4238-497c-980b-0a96e702add3" /> 
 
 
 
