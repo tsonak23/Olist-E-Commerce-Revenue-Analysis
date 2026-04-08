@@ -27,6 +27,31 @@ Data Model:
 
 <img width="761" height="441" alt="Data_Model" src="https://github.com/user-attachments/assets/8a9c67e0-7dc8-4a53-98aa-2c014eee4d22" />
 
+Key Findings:
+1. Revenue grew significantly year on year
+2018 revenue outpaced 2017 across most months. However, seasonal patterns differ between years — 2017 peaked in Q4 (Oct–Dec) consistent with end of year shopping behaviour, while 2018 peaked in Q2 (Apr–Jun), suggesting a shift in buying patterns or promotional activity.
+   
+2. Health & Beauty is the top revenue generating category
+Health & Beauty led overall revenue, followed closely by Watches & Gifts. These lifestyle categories outperformed electronics — indicating Olist's customer base skews toward personal care and gifting rather than high-ticket electronics.
+
+3. Geographic revenue concentration is a business risk
+São Paulo (SP) dominates revenue heavily across both years. While expected given population size, this level of concentration represents a geographic dependency risk — a logistics or economic disruption in SP would disproportionately impact Olist's overall revenue.
+
+4. Cancellation rates are low but worth monitoring
+Cancelled and unavailable orders represent a small percentage of total orders month on month. No significant spike was found in Q2 as initially hypothesised — cancellation rates remained relatively stable across both years.
+
+Analytical Decisions:
+1.Delivered orders only used for revenue calculations — cancelled and unavailable orders excluded to avoid inflating revenue figures
+2.Cancelled and unavailable orders grouped together — both represent unfulfilled orders from a business perspective and are treated as a single "unfulfilled" category in the cancellation analysis
+3.Year slicer in Power BI disconnected from YoY line chart — intentional design decision to preserve year-on-year comparison while allowing other visuals to be filtered by year
+4.Cancellation rate calculated against total monthly orders — not against invoiced orders, which would produce a misleading denominator
+
+Dashboard:
+
+<img width="1307" height="728" alt="Olist_Dashboard" src="https://github.com/user-attachments/assets/4f6fdffc-4238-497c-980b-0a96e702add3" />
+
+
+
 
 
 
