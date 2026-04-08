@@ -42,8 +42,11 @@ Cancelled and unavailable orders represent a small percentage of total orders mo
 
 Analytical Decisions:
 1.Delivered orders only used for revenue calculations — cancelled and unavailable orders excluded to avoid inflating revenue figures
+
 2.Cancelled and unavailable orders grouped together — both represent unfulfilled orders from a business perspective and are treated as a single "unfulfilled" category in the cancellation analysis
+
 3.Year slicer in Power BI disconnected from YoY line chart — intentional design decision to preserve year-on-year comparison while allowing other visuals to be filtered by year
+
 4.Cancellation rate calculated against total monthly orders — not against invoiced orders, which would produce a misleading denominator
 
 Dashboard:
